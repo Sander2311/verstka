@@ -1,0 +1,150 @@
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    height: 94px;
+}
+
+.search{
+    margin: 26px 0px 26px 100px;
+    padding-right: 25px;
+    border-right: 3px solid rgba(100, 100, 100, 0.1);
+}
+
+.search label{
+    font-size: 12px;
+}
+
+.search input{
+    margin-top: 5px;
+    min-width: 200px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    border: none;
+}
+
+.input{
+    margin: 26px 25px 26px 25px;
+}
+
+.input label{
+    font-size: 12px;
+}
+
+.input input{
+    margin-top: 5px;
+    min-width: 150px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    border: none;
+}
+
+.output{
+    margin: 26px 0px 26px 25px;
+    padding-right: 25px;
+    border-right: 3px solid rgba(100, 100, 100, 0.1);
+}
+
+.output label{
+    font-size: 12px;
+}
+
+.output input{
+    margin-top: 5px;
+    min-width: 150px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    border: none;
+}
+
+.num{
+    margin: 26px 25px 26px 25px; 
+}
+
+.num label{
+    font-size: 12px;
+}
+
+.num input{
+    margin-top: 5px;
+    line-height: 20px;
+    vertical-align: middle;
+    text-align: center;
+    width: 40px;
+    font-size: 16px;
+}
+
+.num input::-webkit-inner-spin-button { 
+    opacity: 1;
+  }
+
+  .old{
+    margin: 26px 25px 26px 25px; 
+}
+
+.old label{
+    font-size: 12px;
+}
+
+.old input{
+    margin-top: 5px;
+    line-height: 20px;
+    vertical-align: middle;
+    text-align: center;
+    width: 40px;
+    font-size: 16px;
+}
+
+.old input::-webkit-inner-spin-button { 
+    opacity: 1;
+  }
+
+  .children{
+    margin: 26px 25px 26px 25px; 
+}
+
+.children label{
+    font-size: 12px;
+}
+
+.children input{
+    margin-top: 5px;
+    line-height: 20px;
+    vertical-align: middle;
+    text-align: center;
+    width: 40px;
+    font-size: 16px;
+}
+
+.children input::-webkit-inner-spin-button { 
+    opacity: 1;
+  }
+
+.plus{
+    margin: 32px 25px 26px 25px; 
+}
+.plus button{
+    background-color: #fff;
+    border: none;
+}
+
+.button {
+    margin: 12px 25px 10px 25px;
+}
+
+.plus button:hover{
+    box-shadow: inset 0 0 3px 0 black;
+}
+
+.button button{
+    padding: 25px 70px;
+    background-color:orange;
+    border: 1px solid orange;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+
+.button button:hover{
+    box-shadow: inset 0 0 3px 0 black;
+}
